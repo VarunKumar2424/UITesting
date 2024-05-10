@@ -39,7 +39,7 @@ public class Link1allBrowser {
 	   	}    
 	   
 	   	
-    @SuppressWarnings("deprecation")
+   @SuppressWarnings("deprecation")
 	@Test(priority=2)
 	   public void EdgeTest() throws IOException {
 		   driver = new EdgeDriver();	  

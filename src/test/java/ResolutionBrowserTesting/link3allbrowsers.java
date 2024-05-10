@@ -16,18 +16,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 //import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.Test;
 
-public class link2allbrowsers {
+public class link3allbrowsers {
 	 WebDriver driver;
 	  @SuppressWarnings("deprecation")
 	@Test(priority=1)
 	    public void ChromeDriver() throws IOException {
 		   driver = new ChromeDriver();	  
 		  driver.manage().window().maximize();
-		   driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+		   driver.get("https://www.getcalley.com/calley-pro-features/"); 
 		    driver.manage().window().setSize(new Dimension(1920, 1080));
 		    TakesScreenshot TS=(TakesScreenshot)driver;
 			File Chromebrowser=TS.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(Chromebrowser,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1920,1080\\"+timetamp()+"Screenchots2.png"));
+			FileUtils.copyFile(Chromebrowser,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1920,1080\\"+timetamp()+"Screenshots3.png"));
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.quit();
 			
@@ -44,12 +44,12 @@ public class link2allbrowsers {
 	   public void EdgeTest() throws IOException {
 		   driver = new EdgeDriver();	  
 		  driver.manage().window().maximize();
-	   driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+	   driver.get("https://www.getcalley.com/calley-pro-features/"); 
 		   driver.manage().window().setSize(new Dimension(1920, 1080));
 		   TakesScreenshot TS=(TakesScreenshot)driver;
 			File Edgebrowser=TS.getScreenshotAs(OutputType.FILE);
 			
-			FileUtils.copyFile(Edgebrowser,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1920,1080\\"+timetamp1()+"Screenchots2.png"));
+			FileUtils.copyFile(Edgebrowser,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1920,1080\\"+timetamp1()+"Screenshots3.png"));
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.quit();
 		   }  
@@ -73,11 +73,11 @@ public class link2allbrowsers {
 		    public void ChromeDriver2() throws IOException {
 			   driver = new ChromeDriver();	  
 			  driver.manage().window().maximize();
-			   driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+			   driver.get("https://www.getcalley.com/calley-pro-features/"); 
 			    driver.manage().window().setSize(new Dimension(1366, 768));
 			    TakesScreenshot TS=(TakesScreenshot)driver;
 				File Chromebrowser2=TS.getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(Chromebrowser2,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1366,768\\"+timetamp2()+"Screenchots2.png"));
+				FileUtils.copyFile(Chromebrowser2,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1366,768\\"+timetamp2()+"Screenshots3.png"));
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				driver.quit();
 				}  
@@ -90,12 +90,12 @@ public class link2allbrowsers {
 		@Test(priority=5)
 		   public void EdgeTest2() throws IOException {
 			   driver = new EdgeDriver();	  
-			   driver.manage().window().maximize();
-		       driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+			  driver.manage().window().maximize();
+		   driver.get("https://www.getcalley.com/calley-pro-features/"); 
 			   driver.manage().window().setSize(new Dimension(1366, 768));
 			   TakesScreenshot TS=(TakesScreenshot)driver;
 				File Edgebrowser3=TS.getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(Edgebrowser3,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1366,768\\"+timetamp3()+"Screenchots2.png"));
+				FileUtils.copyFile(Edgebrowser3,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1366,768\\"+timetamp3()+"Screenshots3.png"));
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				driver.quit();
 				}  
@@ -109,11 +109,11 @@ public class link2allbrowsers {
             public void ChromeDriver3() throws IOException {
             driver = new ChromeDriver();	  
             driver.manage().window().maximize();
-            driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+            driver.get("https://www.getcalley.com/calley-pro-features/"); 
             driver.manage().window().setSize(new Dimension(1536, 864));
             TakesScreenshot TS=(TakesScreenshot)driver;
 			File Chromebrowser31=TS.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(Chromebrowser31,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1536,864\\"+timetamp4()+"Screenchots2.png"));
+			FileUtils.copyFile(Chromebrowser31,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\ChromeBrowser\\1536,864\\"+timetamp4()+"Screenshots3.png"));
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.quit();
 			}  
@@ -127,11 +127,11 @@ public class link2allbrowsers {
            public void EdgeTest3() throws IOException {
            driver = new EdgeDriver();	  
            driver.manage().window().maximize();
-           driver.get("https://www.getcalley.com/calley-call-from-browser/"); 
+           driver.get("https://www.getcalley.com/calley-pro-features/"); 
            driver.manage().window().setSize(new Dimension(1536,864));
            TakesScreenshot TS=(TakesScreenshot)driver;
 			File Edgebrowser5=TS.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(Edgebrowser5,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1536,864\\"+timetamp5()+"Screenchots2.png"));
+			FileUtils.copyFile(Edgebrowser5,new File("C:\\Users\\Varun Kumar\\eclipse-workspace\\UITesting\\EdgeBrowser\\1536,864\\"+timetamp5()+"Screenshots3.png"));
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.quit();
 			}  
